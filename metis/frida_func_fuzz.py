@@ -123,7 +123,6 @@ def mutate_file(seed_path, out_path):
 
 
 def main():
-    global all_functions
     os.makedirs(COV_DIR, exist_ok=True)
     os.makedirs(CRASH_DIR, exist_ok=True)
 
