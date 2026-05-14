@@ -1,0 +1,51 @@
+# Windows PE binaries — do not redistribute (Microsoft copyright)
+*.exe
+*.dll
+*.sys
+*.pdb
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+# angr artefacts
+*.ais
+*.p
+angr-management-*
+
+# Generated PDFs and figures (regenerate from source)
+toolchain_doc_figures/
+opsmanual_figures/
+briefing_figures/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# VM and SSH
+*.pem
+id_ed25519*
+*.key
+
+# Crash reports and PoC inputs (may contain sensitive data)
+*.ips
+poc_*.bin
+poc_*.raw

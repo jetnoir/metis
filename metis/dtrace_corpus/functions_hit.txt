@@ -1,0 +1,464 @@
+CGCMSUtilsGetICCProfileInfo
+CGColorSpaceCreateWithICCData
+CGImageCreateWithImageProvider
+CGImageGetBitmapInfo
+CGImageGetBitsPerComponent
+CGImageGetBitsPerPixel
+CGImageGetColorSpace
+CGImageGetContentHeadroom
+CGImageGetHeadroomInfo
+CGImageGetHeight
+CGImageGetImageProvider
+CGImageGetWidth
+CGImageIIMDigestsMatchOrMissing
+CGImageMetadataAddTag
+CGImageMetadataAddTagWithKey
+CGImageMetadataCopyTagWithPath
+CGImageMetadataCreateFromLegacyProps
+CGImageMetadataCreateMutable
+CGImageMetadataCreateSimpleStringFromCFValue
+CGImageMetadataDefaultPrefixForNamespace
+CGImageMetadataGetDefaultString
+CGImageMetadataGetStringValueWithPath
+CGImageMetadataGetTagMatchingImageProperty
+CGImageMetadataGetTagWithPath
+CGImageMetadataGetTopLevelTag
+CGImageMetadataGetTypeID
+CGImageMetadataMerge
+CGImageMetadataNamespaceForDefaultPrefix
+CGImageMetadataNamespaceForPrefix
+CGImageMetadataRegisterNamespaceForPrefix
+CGImageMetadataSetValueWithPath
+CGImageMetadataTagAppendQualifier
+CGImageMetadataTagCreate
+CGImageMetadataTagCreate.cold.1
+CGImageMetadataTagGetSource
+CGImageMetadataTagGetTypeID
+CGImageMetadataTagGetValue
+CGImageMetadataTagKeyCreate
+CGImageMetadataTagKeyCreateWithTag
+CGImageMetadataTagKeyEqual
+CGImageMetadataTagKeyHash(CGImageMetadataTagKey*)
+CGImageMetadataTagKeyRelease
+CGImageMetadataTagKeyReleaseCallback(__CFAllocator const*, CGImageMetadataTagKey*)
+CGImageMetadataTagKeyRetainCallback(__CFAllocator const*, CGImageMetadataTagKey*)
+CGImagePlusCreateWithSession
+CGImagePlusCreateWithSession.cold.1
+CGImagePropertiesCreateFromMetadata
+CGImageProviderCreate
+CGImageProviderGetProperty
+CGImageProviderGetSize
+CGImageProviderRelease
+CGImageProviderSetProperty
+CGImageReadCreateImageBlockCache(cache_s**)
+CGImageReadCreateWithData
+CGImageReadCreateWithDataForMetadata
+CGImageReadRefCreateWith_ImageRead(IIOImageRead*)
+CGImageReadSessionCreate
+CGImageReadSessionGetFilePath
+CGImageRelease
+CGImageSetHeadroom
+CGImageSetProperty
+CGImageSourceCopyPropertiesAtIndex
+CGImageSourceCreateImageAtIndex
+CGImageSourceCreateWithData
+CGImageSourceRefCreateWith_ImageSource
+CGTrackImageSource(CGImageSource*, int)
+CopyTiffPropertiesToRoot(IIODictionary*, CGImageMetadata*)
+CreateMetadataFromDatablock(IIOImageReadSession*, tagdef const*, unsigned long, unsigned long, bool, __CFData const*, unsigned
+CreateReader_HEIF()
+CreateReader_TIFF()
+GlobalHEIFInfo::GlobalHEIFInfo()
+GlobalHEIFInfo::getNumberOfMainImages()
+GlobalHEIFInfo::setShouldExposeMultiFrameContents(bool)
+GlobalHEIFInfo::setUseHEIFSequence(bool)
+GlobalHEIFInfo::~GlobalHEIFInfo()
+GlobalTIFFInfo::GlobalTIFFInfo(bool)
+GlobalTIFFInfo::~GlobalTIFFInfo()
+IIODetermineHEIFSupport()
+IIODetermineHEIFSupport() (.cold.1)
+IIOImagePlus::IIOImagePlus(CGImageReadSession*, void const*, __CFDictionary const*)
+IIOImagePlus::copyPropertiesToRoot()
+IIOImagePlus::createImage(CGImageSource*, int*, unsigned int*)
+IIOImagePlus::createSourceImageProvider(CGSize, CGImageComponentType, CGColorSpace*, ImageProviderInfoRec*, IIODictionary*)
+IIOImagePlus::getImageProvider()
+IIOImagePlus::getOptions()
+IIOImagePlus::getProperties()
+IIOImagePlus::getStatus()
+IIOImagePlus::readPlugin()
+IIOImagePlus::releaseImageProvider()
+IIOImagePlus::releaseUnusedImageProvider()
+IIOImagePlus::setGeometry(void*, CGImagePlusGeometry)
+IIOImagePlus::setGeometry(void*, CGImagePlusGeometry) (.cold.1)
+IIOImagePlus::setISR(CGImageSource*)
+IIOImagePlus::setImageBlockProc(void*, unsigned int, CGImageBlockSet* (*)(void*, CGImageProvider*, CGRect, CGSize, __CFDictiona
+IIOImagePlus::setReadPlugin(void*)
+IIOImagePlus::setShouldCacheImageBlocks(bool)
+IIOImagePlus::setShouldCacheImmediately(bool)
+IIOImagePlus::setStatus(CGImageSourceStatus)
+IIOImagePlus::shouldCacheImageBlocks()
+IIOImagePlus::shouldCacheImmediately()
+IIOImagePlus::~IIOImagePlus()
+IIOImageProviderInfo::IIOImageProviderInfo(IIOImagePlus*, void*, unsigned int, CGImageBlockSet* (*)(void*, CGImageProvider*, CG
+IIOImageProviderInfo::ReleaseInfo(void*)
+IIOImageProviderInfo::~IIOImageProviderInfo()
+IIOImageRead::CreateWithData(__CFData const*, bool)
+IIOImageRead::CreateWithData(__CFData const*, bool) (.cold.1)
+IIOImageRead::IIOImageRead(__CFData const*, CGImageReadType, bool)
+IIOImageRead::IIOImageRead(unsigned char*, unsigned long, CGImageReadType, bool)
+IIOImageRead::copySourceInfo()
+IIOImageRead::forceUseServer()
+IIOImageRead::getBytesAtOffset(void*, unsigned long, unsigned long, bool)
+IIOImageRead::getCFDataBytesAtOffset(void*, long, long)
+IIOImageRead::getSize()
+IIOImageRead::globalInfoPtrForType(unsigned int)
+IIOImageRead::isFinal()
+IIOImageRead::length()
+IIOImageRead::lock()
+IIOImageRead::releaseBytePointer(void*)
+IIOImageRead::retainBytePointer(void**, bool)
+IIOImageRead::setGlobalInfoPtr(unsigned int, void*, void (*)(void*))
+IIOImageRead::setISR(CGImageSource*)
+IIOImageRead::setup(CGImageReadType)
+IIOImageRead::unlock()
+IIOImageRead::unmapData()
+IIOImageRead::~IIOImageRead()
+IIOImageReadSession::IIOImageReadSession(CGImageReadSession*, CGImageRead*)
+IIOImageReadSession::getBytes(void*, unsigned long)
+IIOImageReadSession::getBytesAtOffset(void*, unsigned long, unsigned long)
+IIOImageReadSession::getSize()
+IIOImageReadSession::globalInfoForType(unsigned int)
+IIOImageReadSession::isFinal()
+IIOImageReadSession::releaseBytePointer(void*)
+IIOImageReadSession::retainBytePointer(void**, bool)
+IIOImageReadSession::seek(long long, int)
+IIOImageReadSession::setGlobalInfo(unsigned int, void*, void (*)(void*))
+IIOImageReadSession::~IIOImageReadSession()
+IIOImageSource::IIOImageSource(__CFData const*, IIODictionary*)
+IIOImageSource::bindToReader()
+IIOImageSource::copyPropertiesAtIndex(unsigned long, IIODictionary*)
+IIOImageSource::createImageAtIndex(unsigned long, IIODictionary*, int*, unsigned int*)
+IIOImageSource::doBindToReader()
+IIOImageSource::extractOptions(IIODictionary*)
+IIOImageSource::forceUseServer()
+IIOImageSource::getCacheValues(IIODictionary*, bool*, bool*)
+IIOImageSource::getImagePlus(unsigned long)
+IIOImageSource::getImagePlusAtIndex(long)
+IIOImageSource::getImagePropertiesAtIndex(long)
+IIOImageSource::getPropertiesAtIndexInternal(unsigned long, IIODictionary*)
+IIOImageSource::getPropertiesAtIndexInternal(unsigned long, IIODictionary*) (.cold.2)
+IIOImageSource::isProxy()
+IIOImageSource::isRAWFile()
+IIOImageSource::makeImagePlus(unsigned long, IIODictionary*)
+IIOImageSource::removeUnusedImages()
+IIOImageSource::setImageMedadataAtIndex(CGImageMetadata const*, long)
+IIOImageSource::setImagePlusAtIndex(CGImagePlus*, long)
+IIOImageSource::setImagePropertiesAtIndex(IIODictionary*, long)
+IIOImageSource::setup(CGImageSourceType)
+IIOImageSource::unmapData()
+IIOImageSource::updatedCount()
+IIOImageSource::~IIOImageSource()
+IIOMetadata_Tag::IIOMetadata_Tag(__CFString const*, __CFString const*, __CFString const*, CGImageMetadataType, void const*)
+IIOReadPlugin::IIOReadPlugin(CGImagePlus*, unsigned int, long long, unsigned int)
+IIOReadPlugin::addImageTypeIdentifier(CGImage*, __CFString const*, unsigned int)
+IIOReadPlugin::setUTIWithReader(IIO_Reader*)
+IIOReadPlugin::setupImageProviderCallbackV1(InfoRec*, CGImageBlockSet* (*)(void*, CGImageProvider*, CGRect, CGSize, __CFDiction
+IIOReader_RawCamera::IIOReader_RawCamera(IIODictionary*)
+IIOScanner::IIOScanner(IIOImageReadSession*)
+IIOScanner::getTiffOffset()
+IIOScanner::getTiffTag(__TIFFTAG*)
+IIOXPCClient::useServerForCall(IIOImageRead*, IIO_Reader*, IIORequest, IIO_XPC_ID, bool)
+IIOXPCClient::useServerForIdentification(IIOImageRead*, IIORequest)
+IIOXPCClient::useServerForImageCount(IIOImageRead*, IIO_Reader*, IIORequest)
+IIOXPCClient::useServerForInitImage(IIOImageRead*, IIO_Reader*, IIORequest)
+IIO_LoadHEIFSymbols
+IIO_LoadHEIFSymbols.cold.1
+IIO_LoadHEIFSymbols.cold.2
+IIO_LoadHEIFSymbols.cold.3
+IIO_LoadHEIFSymbols.cold.4
+IIO_Reader::IIO_Reader()
+IIO_Reader::IIO_Reader(__CFString const* const*, char const*, unsigned int, unsigned long, unsigned long)
+IIO_Reader::callGetImageCount(CGImageReadSession*, IIODictionary*, CGImageSourceStatus*, int*)
+IIO_Reader::callInitializeImageAtOffset(CGImagePlugin*, unsigned long, unsigned long, unsigned long, IIORequest)
+IIO_Reader::initImageAtOffset(CGImagePlugin*, unsigned long, unsigned long, unsigned long)
+IIO_Reader::isReaderForRAWImageFormat()
+IIO_Reader::setAddToTypeIdentifiers(bool)
+IIO_Reader::updateImageHeadroom(CGImage*, IIOImageReadSession*, CGColorSpace*, CGImageComponentType, unsigned int)
+IIO_Reader::utType()
+IIO_ReaderHandler::GetReaderHandler()
+IIO_ReaderHandler::GetReaderHandler() (.cold.1)
+IIO_ReaderHandler::IIO_ReaderHandler()
+IIO_ReaderHandler::buildPluginList()
+IIO_ReaderHandler::copySupportedTypes()
+IIO_ReaderHandler::readerForBytes(unsigned char const*, unsigned long, __CFString const*, IIOImageRead*, unsigned long, IIOHead
+IIO_ReaderHandler::readerForBytesImp(unsigned char const*, unsigned long, __CFString const*, unsigned long, IIOHeaderOptions, I
+IIO_ReaderHandler::readerForType(unsigned int)
+IIO_Reader_AI::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_ASTC::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_ATX::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_AppleJPEG::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_BC::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_BMP::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_CUR::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_ETC::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_GIF::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_HEIF::extractImageInfo(GlobalHEIFInfo*, IIOImageReadSession*, IIODictionary*)
+IIO_Reader_HEIF::getImageCount(IIOImageReadSession*, IIODictionary*, CGImageSourceStatus*, unsigned int*)
+IIO_Reader_HEIF::hasCustomImageCountProc()
+IIO_Reader_HEIF::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_ICNS::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_ICO::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_JP2::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_KTX2::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_KTX::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_LibJPEG::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_MPO::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_OpenEXR::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_PBM::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_PDF::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_PNG::compareOptions(__CFDictionary const*, __CFDictionary const*)
+IIO_Reader_PNG::createReadPlugin(CGImagePlus*, unsigned int, long long)
+IIO_Reader_PNG::getImageCount(IIOImageReadSession*, IIODictionary*, CGImageSourceStatus*, unsigned int*)
+IIO_Reader_PNG::hasCustomCompareOptionsProc()
+IIO_Reader_PNG::hasCustomImageCountProc()
+IIO_Reader_PNG::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_PSD::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_PVR::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_RAD::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_SGI::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_TGA::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_TIFF::compareOptions(__CFDictionary const*, __CFDictionary const*)
+IIO_Reader_TIFF::createReadPlugin(CGImagePlus*, unsigned int, long long)
+IIO_Reader_TIFF::getImageCount(IIOImageReadSession*, IIODictionary*, CGImageSourceStatus*, unsigned int*)
+IIO_Reader_TIFF::hasCustomCompareOptionsProc()
+IIO_Reader_TIFF::hasCustomImageCountProc()
+IIO_Reader_TIFF::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IIO_Reader_WebP::testHeader(unsigned char const*, unsigned long, __CFString const*, IIOHeaderOptions)
+IOTiffClientData::IOTiffClientData(bool)
+IOTiffClientData::~IOTiffClientData()
+PNGReadPlugin::Get_cHRM_colorspace(PNGPluginData&, png_struct_def*, png_info_def*, double*)
+PNGReadPlugin::Get_colorspace(ReadPluginData const&, PNGPluginData&, png_struct_def*, png_info_def*, double*)
+PNGReadPlugin::HandlePNGMetadata(IIODictionary*, IIODictionary*, CGImageMetadata*, png_struct_def*, png_info_def*)
+PNGReadPlugin::InitializePluginData(IIOImageReadSession*, IIODictionary*, IIODictionary*, CGImageMetadata*, CGColorSpace**, Rea
+PNGReadPlugin::PNGReadPlugin(CGImagePlus*, unsigned int, long long, unsigned int)
+PNGReadPlugin::Validate_png_info(png_struct_def*, png_info_def*, PNGPluginData&)
+PNGReadPlugin::initialize(IIODictionary*)
+PNGReadPlugin::setupCallback(InfoRec*)
+PNGReadPlugin::~PNGReadPlugin()
+ReadMetadataLong(CGImageMetadata*, IIOImageReadSession*, __CFString const*, __CFString const*, __CFString const*, CGImageMetada
+ReadMetadataRtnl(CGImageMetadata*, IIOImageReadSession*, __CFString const*, __CFString const*, __CFString const*, CGImageMetada
+ReadMetadataShort(CGImageMetadata*, IIOImageReadSession*, __CFString const*, __CFString const*, __CFString const*, CGImageMetad
+ReadTiffMetadata(IIOImageReadSession*, CGImageMetadata*, unsigned long, bool, __CFData const*, unsigned int)
+ReadUserComment(CGImageMetadata*, IIOImageReadSession*, __CFString const*, __CFString const*, __CFString const*, CGImageMetadat
+ReleaseTIFFGlobalInfo(void*)
+SetupTIFFErrorHandler()
+SetupTIFFErrorHandler() (.cold.1)
+TIFFCleanup
+TIFFClientOpenExt
+TIFFDataWidth
+TIFFDefaultDirectory
+TIFFFetchDirectory
+TIFFFetchNormalTag
+TIFFFetchStripThing
+TIFFFieldSetGetSize
+TIFFFieldWithTag
+TIFFFindField
+TIFFHashSetDestroy
+TIFFHashSetFindPtr
+TIFFHashSetInsert
+TIFFHashSetLookup
+TIFFHashSetNew
+TIFFHashSetSize
+TIFFInitDumpMode
+TIFFInitJPEG
+TIFFReadDirEntryArrayWithLimit
+TIFFReadDirEntryLong
+TIFFReadDirEntryLong8ArrayWithLimit
+TIFFReadDirEntryOutputErr
+TIFFReadDirEntryShort
+TIFFReadDirEntryShortArray
+TIFFReadDirectoryFindFieldInfo
+TIFFReadPlugin::TIFFReadPlugin(CGImagePlus*, unsigned int, long long, bool, unsigned int)
+TIFFReadPlugin::calculateBlockCount()
+TIFFReadPlugin::handleColorSpace(bool)
+TIFFReadPlugin::initialize(IIODictionary*)
+TIFFReadPlugin::isValidIFD(IIOScanner*, bool, unsigned long long, tiff_errors*, unsigned int)
+TIFFReadPlugin::isValidTIFF()
+TIFFReadPlugin::sanityCheck()
+TIFFReadPlugin::updateSubsample(unsigned int)
+TIFFReadPlugin::updateTiffStruct(tiff*)
+TIFFReadPlugin::~TIFFReadPlugin()
+TIFFSetCompressionScheme
+TIFFVGetField
+TIFFVGetFieldDefaulted
+TIFFVSetField
+TIFFVStripSize64
+TIFFVTileSize64
+TIFFWarningExtR
+_CGImageMetadataFinalize(void const*)
+_CGImageMetadataTagFinalize(void const*)
+_CGImagePlusFinalize(void const*)
+_CGImageReadFinalize(void const*)
+_CGImageReadSessionFinalize(void const*)
+_CGImageSourceFinalize(void const*)
+_TIFFCastUInt64ToSSize
+_TIFFCheckDirNumberAndOffset
+_TIFFCheckFieldIsValidForCodec
+_TIFFCheckMalloc
+_TIFFCheckRealloc
+_TIFFCleanupIFDOffsetAndNumberMaps
+_TIFFCreateAnonField
+_TIFFGetFields
+_TIFFGetMaxColorChannels
+_TIFFGetStrileOffsetOrByteCountValue
+_TIFFMergeFields
+_TIFFMultiply64
+_TIFFMultiplySSize
+_TIFFSeekOK
+_TIFFSetDefaultCompressionState
+_TIFFSetupFields
+_TIFFVGetField
+_TIFFVSetField
+_TIFFgetMode
+_TIFFmemcpy
+_TIFFmemset
+_TIFFsetShortArrayExt
+_TIFFvoid
+__CGColorSpaceFromICCDataCacheGetRetained_block_invoke
+__CGColorSpaceFromICCDataCacheGetRetained_block_invoke_2
+__CGImageGetTypeID_block_invoke_2
+__CGImageMetadataCreateFromLegacyProps_block_invoke
+__CGImageMetadataGetTagMatchingImageProperty_block_invoke
+__CGImageMetadataGetTypeID_block_invoke
+__CGImageMetadataTagGetTypeID_block_invoke
+__CGImagePlusGetTypeID_block_invoke
+__CGImagePropertiesCreateFromMetadata_block_invoke
+__CGImageProviderGetTypeID_block_invoke_2
+__CGImageReadGetTypeID_block_invoke
+__CGImageReadSessionGetTypeID_block_invoke
+__CGImageSourceGetTypeID_block_invoke
+__IIO_LoadHEIFSymbols_block_invoke_2
+__IIO_LoadHEIFSymbols_block_invoke_3
+__IIO_LoadHEIFSymbols_block_invoke_4
+_cg_TIFFClientOpen
+_cg_TIFFClose
+_cg_TIFFFreeDirectory
+_cg_TIFFGetField
+_cg_TIFFGetFieldDefaulted
+_cg_TIFFIsTiled
+_cg_TIFFNumberOfStrips
+_cg_TIFFReadDirectory
+_cg_TIFFScanlineSize
+_cg_TIFFScanlineSize64
+_cg_TIFFSetErrorHandler
+_cg_TIFFSetErrorHandlerExt
+_cg_TIFFSetField
+_cg_TIFFSetWarningHandler
+_cg_TIFFStripSize
+_cg_TIFFStripSize64
+_cg_TIFFTileRowSize64
+_cg_png_create_info_struct
+_cg_png_create_read_struct
+_cg_png_destroy_info_struct
+_cg_png_destroy_read_struct
+_cg_png_error
+_cg_png_get_bit_depth
+_cg_png_get_channels
+_cg_png_get_color_type
+_cg_png_get_eXIf_1
+_cg_png_get_iCCP
+_cg_png_get_image_height
+_cg_png_get_image_width
+_cg_png_get_interlace_type
+_cg_png_get_io_ptr
+_cg_png_get_rowbytes
+_cg_png_get_text_count
+_cg_png_get_text_entry
+_cg_png_get_valid
+_cg_png_get_x_pixels_per_meter
+_cg_png_get_y_pixels_per_meter
+_cg_png_read_chunk_header
+_cg_png_read_info
+_cg_png_read_update_info
+_cg_png_set_IHDR
+_cg_png_set_benign_errors
+_cg_png_set_eXIf_1
+_cg_png_set_interlace_handling
+_cg_png_set_keep_unknown_chunks_sized
+_cg_png_set_option
+_cg_png_set_pHYs
+_cg_png_set_read_fn
+_cg_png_set_read_user_chunk_fn
+createArrayPropertyValue(CGImageMetadata*, TXMPMeta<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocat
+globalHEIFInfoReleaseProc(void*)
+handle_error(png_struct_def*, char const*)
+handle_warning(png_struct_def*, char const*)
+imagePNG_error_break(png_struct_def*, png_info_def*)
+invocation function for block in CreateMetadataFromDatablock(IIOImageReadSession*, tagdef const*, unsigned long, unsigned long,
+invocation function for block in IIODetermineHEIFSupport()
+invocation function for block in IIOImageRead::CreateWithData(__CFData const*, bool)
+invocation function for block in IIO_ReaderHandler::GetReaderHandler()
+invocation function for block in IIO_ReaderHandler::UseAppleJPEG()
+invocation function for block in IIO_ReaderHandler::buildPluginList()
+invocation function for block in SetupTIFFErrorHandler()
+myTIFFCloseProc(void*)
+myTIFFMapFileProc(void*, void**, unsigned long long*)
+myTIFFReadProc(void*, void*, long long)
+myTIFFSeekProc(void*, unsigned long long, int)
+myTIFFSizeProc(void*)
+pngReadCallback(png_struct_def*, unsigned char*, unsigned long)
+png_calculate_crc
+png_check_IHDR
+png_check_chunk_length
+png_check_chunk_name
+png_chunk_benign_error
+png_chunk_error
+png_chunk_unknown_handling
+png_chunk_warning
+png_colorspace_sync
+png_colorspace_sync_info
+png_crc_error
+png_crc_finish
+png_crc_read
+png_create_png_struct
+png_create_read_struct_2
+png_destroy_gamma_table
+png_destroy_png_struct
+png_format_buffer
+png_free
+png_free_data
+png_gamma_significant
+png_handle_IHDR
+png_handle_as_unknown
+png_handle_eXIf
+png_handle_iCCP
+png_handle_iTXt
+png_handle_pHYs
+png_have_info
+png_icc_check_header
+png_icc_check_length
+png_icc_check_tag_table
+png_icc_set_sRGB
+png_inflate_claim
+png_inflate_read
+png_init_read_transformations
+png_malloc
+png_malloc_warn
+png_read_buffer
+png_read_data
+png_read_sig
+png_read_start_row
+png_read_transform_info
+png_realloc_array
+png_reset_crc
+png_set_error_fn
+png_set_mem_fn
+png_set_text_2
+png_sig_cmp
+png_user_version_check
+png_warning
+png_zalloc
+png_zfree
+png_zlib_inflate
+png_zstream_error
+std::__1::__split_buffer<std::__1::unique_ptr<IIO_Reader, std::__1::default_delete<IIO_Reader>>, std::__1::allocator<std::__1::

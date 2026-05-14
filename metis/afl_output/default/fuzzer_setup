@@ -1,0 +1,10 @@
+# environment variables:
+AFL_CUSTOM_INFO_PROGRAM=./imageio_harness_afl
+AFL_CUSTOM_INFO_PROGRAM_ARGV=@@
+AFL_CUSTOM_INFO_OUT=afl_output/default
+AFL_I_DONT_CARE_ABOUT_MISSING_CRASHES=1
+AFL_NO_UI=1
+AFL_MAP_SIZE=65536
+AFL_SKIP_CPUFREQ=1
+# command line:
+'/opt/homebrew/Cellar/afl++/4.35c_1/libexec/afl-fuzz' '-i' 'afl_corpus' '-o' 'afl_output' '-t' '5000' '--' './imageio_harness_afl' '@@'
